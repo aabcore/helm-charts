@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "aab-bankers-choice.fullname" . }}
+  labels:
+    {{- include "aab-bankers-choice.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "aab-bankers-choice.selectorLabels" . | nindent 4 }}
