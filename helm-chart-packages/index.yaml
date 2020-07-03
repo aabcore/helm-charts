@@ -3,9 +3,9 @@ entries:
   aab-bankers-choice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-03T11:34:12.5353273-05:00"
+    created: "2020-07-03T12:08:32.0268161-05:00"
     description: A Helm chart for Kubernetes
-    digest: 297fc54c58609fd85928a917e285d952bea5b4ff8bba6c4e179b1c2f19456444
+    digest: e93452b8b2c8682d8a59634a575b808de56b86e0650bfa7a24cba8bbaf535e47
     name: aab-bankers-choice
     type: application
     urls:
@@ -14,12 +14,12 @@ entries:
   aab-mongodb:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-03T11:34:12.5383257-05:00"
+    created: "2020-07-03T12:08:32.0308162-05:00"
     description: A Helm chart for Kubernetes
-    digest: 937177d3aea52dc67715006c96c6e893c52fa15dbe28bd49efd1254b80c83603
+    digest: d21a53834a6521bd7a345d0fb8feaf827ed09ed9a91f22bda374d00e54679af3
     name: aab-mongodb
     type: application
     urls:
     - aab-mongodb-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-03T11:34:12.5323378-05:00"
+generated: "2020-07-03T12:08:32.0228171-05:00"
