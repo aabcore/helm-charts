@@ -39,14 +39,30 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /
+              path: /api/health
               port: http
           readinessProbe:
             httpGet:
-              path: /
+              path: /api/health
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+          env:
+            - name: "DatabaseSettings:ConnectionString"
+              valueFrom:
+                secretKeyRef:
+                  name: mongodb-cred
+                  value: connectionstring
+            - name: "DatabaseSettings:UserName"
+              valueFrom:
+                secretKeyRef:
+                  name: mongodb-cred
+                  value: username
+            - name: "DatabaseSettings:Password"
+              valueFrom:
+                secretKeyRef:
+                  name: mongodb-cred
+                  value: password
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
