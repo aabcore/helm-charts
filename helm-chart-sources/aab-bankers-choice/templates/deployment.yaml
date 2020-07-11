@@ -52,17 +52,17 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: mongodb-cred
-                  value: connectionstring
+                  key: connectionstring
             - name: "DatabaseSettings:UserName"
               valueFrom:
                 secretKeyRef:
                   name: mongodb-cred
-                  value: username
+                  key: username
             - name: "DatabaseSettings:Password"
               valueFrom:
                 secretKeyRef:
                   name: mongodb-cred
-                  value: password
+                  key: password
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
