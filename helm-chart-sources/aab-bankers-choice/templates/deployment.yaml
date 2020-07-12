@@ -53,12 +53,12 @@ spec:
                 secretKeyRef:
                   name: mongodb-cred
                   key: connectionstring
-            - name: "DatabaseSettings__UserName"
+            - name: "DatabaseSettings__DatabaseUserName"
               valueFrom:
                 secretKeyRef:
                   name: mongodb-cred
                   key: username
-            - name: "DatabaseSettings__Password"
+            - name: "DatabaseSettings__DatabasePassword"
               valueFrom:
                 secretKeyRef:
                   name: mongodb-cred
