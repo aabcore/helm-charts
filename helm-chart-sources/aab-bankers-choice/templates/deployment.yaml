@@ -48,17 +48,17 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           env:
-            - name: "DatabaseSettings:ConnectionString"
+            - name: "DatabaseSettings__ConnectionString"
               valueFrom:
                 secretKeyRef:
                   name: mongodb-cred
                   key: connectionstring
-            - name: "DatabaseSettings:UserName"
+            - name: "DatabaseSettings__UserName"
               valueFrom:
                 secretKeyRef:
                   name: mongodb-cred
                   key: username
-            - name: "DatabaseSettings:Password"
+            - name: "DatabaseSettings__Password"
               valueFrom:
                 secretKeyRef:
                   name: mongodb-cred
