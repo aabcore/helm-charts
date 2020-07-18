@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "aab-personable-people.fullname" . }}-test-connection"
+  labels:
+    {{- include "aab-personable-people.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test-success
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "aab-personable-people.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
