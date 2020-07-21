@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "aab-mail-cat.fullname" . }}-test-connection"
+  labels:
+    {{- include "aab-mail-cat.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test-success
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "aab-mail-cat.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
