@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   aab-bankers-choice:
   - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2020-07-24T13:32:55.6611901-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 54b22b01a71343aefbae1f4568cc8db6d478bf9e7f5815759d150d170dbcb042
+    name: aab-bankers-choice
+    type: application
+    urls:
+    - aab-bankers-choice-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 0.3.1
-    created: "2020-07-21T18:24:07.663112-05:00"
+    created: "2020-07-24T13:32:55.6581902-05:00"
     description: A Helm chart for Kubernetes
     digest: 8c873a8d8956179136cf1434cf13dc8da394b159f62a57710be87feed08d9e30
     name: aab-bankers-choice
@@ -13,7 +23,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2020-07-21T18:24:07.6601131-05:00"
+    created: "2020-07-24T13:32:55.6481906-05:00"
     description: A Helm chart for Kubernetes
     digest: bb7e466cb0738d3fa659ba756a2329b22ba374d15e16cdecede231a1caeedd6a
     name: aab-bankers-choice
@@ -23,7 +33,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2020-07-21T18:24:07.6571125-05:00"
+    created: "2020-07-24T13:32:55.6371867-05:00"
     description: A Helm chart for Kubernetes
     digest: 659d43c0f073bd589ffc75c74e3a2b089eb47b95cca7015d84c563483a549516
     name: aab-bankers-choice
@@ -33,7 +43,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2020-07-21T18:24:07.6541125-05:00"
+    created: "2020-07-24T13:32:55.6271892-05:00"
     description: A Helm chart for Kubernetes
     digest: f63fbfcafb1aa914ff79c7ddd2aa3eacf9beb6ee5b5795da1dcfc8afcb8f162b
     name: aab-bankers-choice
@@ -43,7 +53,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2020-07-21T18:24:07.651113-05:00"
+    created: "2020-07-24T13:32:55.6161885-05:00"
     description: A Helm chart for Kubernetes
     digest: 7c5237950d53d288f63f01e3c02b49041b4c0e0f9b67efe34fffdccdd91549f7
     name: aab-bankers-choice
@@ -53,7 +63,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2020-07-21T18:24:07.6481131-05:00"
+    created: "2020-07-24T13:32:55.6061897-05:00"
     description: A Helm chart for Kubernetes
     digest: c4883e5e912bfa93b286d639eb2d0b300636a081cbd0028d8e2ce576d78a021e
     name: aab-bankers-choice
@@ -63,7 +73,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2020-07-21T18:24:07.6451119-05:00"
+    created: "2020-07-24T13:32:55.5901873-05:00"
     description: A Helm chart for Kubernetes
     digest: ae143003e614c0277f6e04e972a9b8f3382a0128fc85f8fd4485b2a2532ddec5
     name: aab-bankers-choice
@@ -73,7 +83,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2020-07-21T18:24:07.6421124-05:00"
+    created: "2020-07-24T13:32:55.5771878-05:00"
     description: A Helm chart for Kubernetes
     digest: 30b6c769e25d5e0528310eac6fbc95add78f70926fac4bf08cb496640a21e649
     name: aab-bankers-choice
@@ -83,7 +93,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-21T18:24:07.6401116-05:00"
+    created: "2020-07-24T13:32:55.5651891-05:00"
     description: A Helm chart for Kubernetes
     digest: c25571dd1f2e56fc9eec5cda14384576b0d643008529b1414a4dd480aa221cb2
     name: aab-bankers-choice
@@ -93,7 +103,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-21T18:24:07.6371116-05:00"
+    created: "2020-07-24T13:32:55.5471876-05:00"
     description: A Helm chart for Kubernetes
     digest: e93452b8b2c8682d8a59634a575b808de56b86e0650bfa7a24cba8bbaf535e47
     name: aab-bankers-choice
@@ -104,7 +114,7 @@ entries:
   aab-mail-cat:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2020-07-21T18:24:07.6711122-05:00"
+    created: "2020-07-24T13:32:55.6911914-05:00"
     description: A Helm chart for Kubernetes
     digest: 3cef4499d292894569a02098ee349f908e7a3ccae896c13a913fa61300c89677
     name: aab-mail-cat
@@ -114,7 +124,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2020-07-21T18:24:07.6691124-05:00"
+    created: "2020-07-24T13:32:55.6811946-05:00"
     description: A Helm chart for Kubernetes
     digest: a9a5c19a9ab6ae45c8095366cb8962a348ffd933ff946e990cb73e7348c548cb
     name: aab-mail-cat
@@ -124,7 +134,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2020-07-21T18:24:07.6661172-05:00"
+    created: "2020-07-24T13:32:55.6711914-05:00"
     description: A Helm chart for Kubernetes
     digest: 720dd382c941c3dc07203c97f01e7367ff0d43836db0258bae73d8c3a6414a4f
     name: aab-mail-cat
@@ -135,7 +145,7 @@ entries:
   aab-mongodb:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-21T18:24:07.6741126-05:00"
+    created: "2020-07-24T13:32:55.7011982-05:00"
     description: A Helm chart for Kubernetes
     digest: d21a53834a6521bd7a345d0fb8feaf827ed09ed9a91f22bda374d00e54679af3
     name: aab-mongodb
@@ -146,7 +156,7 @@ entries:
   aab-personable-people:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-07-21T18:24:07.6801119-05:00"
+    created: "2020-07-24T13:32:55.7212169-05:00"
     description: A Mini CRM for AAB
     digest: 431c361d614eb77955affc69b89d39d1018cef0f618cb5046aa872016ab69e77
     name: aab-personable-people
@@ -156,7 +166,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-07-21T18:24:07.6771116-05:00"
+    created: "2020-07-24T13:32:55.7111917-05:00"
     description: A Helm chart for Kubernetes
     digest: 735b998354546812b9c43b344517cfc8905d9a1790f2ffac96a0518309677e3b
     name: aab-personable-people
@@ -164,4 +174,4 @@ entries:
     urls:
     - aab-personable-people-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-21T18:24:07.6341114-05:00"
+generated: "2020-07-24T13:32:55.5221832-05:00"
