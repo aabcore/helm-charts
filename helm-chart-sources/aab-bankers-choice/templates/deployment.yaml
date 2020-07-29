@@ -51,17 +51,17 @@ spec:
             - name: "DatabaseSettings__ConnectionString"
               valueFrom:
                 secretKeyRef:
-                  name: mongodb-cred
+                  name: mongodb-bankerschoice-cred
                   key: connectionstring
             - name: "DatabaseSettings__DatabaseUserName"
               valueFrom:
                 secretKeyRef:
-                  name: mongodb-cred
+                  name: mongodb-bankerschoice-cred
                   key: username
             - name: "DatabaseSettings__DatabasePassword"
               valueFrom:
                 secretKeyRef:
-                  name: mongodb-cred
+                  name: mongodb-bankerschoice-cred
                   key: password
       {{- with .Values.nodeSelector }}
       nodeSelector:
